@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "Кроссовки беговые Runner 3",
+      "url": "https://shop.example.ru/product/runner-3",
+      "target_price": 4500
+    },
+    {
+      "name": "Лампа настольная LED",
+      "url": "https://lamps.example.ru/lamp-led",
+      "selectors": {
+        "price": ".price__current",
+        "title": ".product-title",
+        "in_stock": ".buy-button"
+      }
+    }
+  ]
+}
